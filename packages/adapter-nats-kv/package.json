@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NATS KeyValue-store adapter for Auth.js.",
   "homepage": "https://authjs.dev",
-  "repository": "https://github.com/nextauthjs/next-auth",
+  "repository": "https://github.com/lfbergee/next-auth",
   "bugs": {
     "url": "https://github.com/nextauthjs/next-auth/issues"
   },
