@@ -253,4 +253,4 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PACKAGE_PATH: ${{ env.PACKAGE_PATH }}
-          VERSION: ${{ steps.determine-version.outputs.version }}
+          VERSION: "0.0.1"

@@ -40,7 +40,8 @@
   "scripts": {
     "test": "./test/test.sh",
     "build": "tsc",
-    "clean": "rm -rf *.js *.d.ts*"
+    "clean": "rm -rf *.js *.d.ts*",
+    "prepublish": "tsc --declaration --emitDeclarationOnly --outDir ./"
   },
   "dependencies": {
     "@auth/core": "workspace:*"
