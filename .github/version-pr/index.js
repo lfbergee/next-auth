@@ -13,7 +13,7 @@ try {
   const prefix = "0.0.0-"
   const pr = process.env.PR_NUMBER
   const source = pr ? `pr.${pr}` : "manual"
-  const packageVersion = `0.0.1`
+  const packageVersion = `0.0.2`
   packageJSON.version = packageVersion
   core.setOutput("version", packageVersion)
   fs.writeFileSync(packageJSONPath, JSON.stringify(packageJSON))
